@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1, h2, h3, h4, h5, h6, p, a, li, ul, ol, blockquote, pre, code, table, th, td, caption {
+    @apply text-gray-300
+  }
+}
+
+
+@layer components {
+  .transition-every {
+    @apply transition-all duration-200 ease-out;
+  }
+
+  .button-default {
+    @apply bg-gray-900 text-gray-300 border border-gray-800 rounded-md px-4 py-2 flex items-center justify-center gap-2;
+  }
+
+  .button-default:hover {
+    @apply bg-gray-800 border-purple-400 text-purple-400 border transition-every;
+  }
+
+}
