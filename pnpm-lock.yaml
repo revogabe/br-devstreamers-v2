@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@radix-ui/colors': ^0.1.8
   '@radix-ui/react-accordion': ^1.1.1
+  '@radix-ui/react-icons': ^1.3.0
   '@rocketseat/eslint-config': ^1.2.0
   '@types/node': 18.15.11
   '@types/react': 18.0.33
@@ -27,6 +28,7 @@ specifiers:
 dependencies:
   '@radix-ui/colors': 0.1.8
   '@radix-ui/react-accordion': 1.1.1_biqbaboplfbrettd7655fr4n2y
+  '@radix-ui/react-icons': 1.3.0_react@18.2.0
   '@types/node': 18.15.11
   '@types/react': 18.0.33
   '@types/react-dom': 18.0.11
@@ -317,6 +319,14 @@ packages:
       react: ^16.8 || ^17.0 || ^18.0
     dependencies:
       '@babel/runtime': 7.21.0
+      react: 18.2.0
+    dev: false
+
+  /@radix-ui/react-icons/1.3.0_react@18.2.0:
+    resolution: {integrity: sha512-jQxj/0LKgp+j9BiTXz3O3sgs26RNet2iLWmsPyRz2SIcR4q/4SbazXfnYwbAr+vLYKSfc7qxzyGQA1HLlYiuNw==}
+    peerDependencies:
+      react: ^16.x || ^17.x || ^18.x
+    dependencies:
       react: 18.2.0
     dev: false
 
