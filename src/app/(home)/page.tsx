@@ -15,7 +15,7 @@ export default async function Home() {
   })
 
   const response: GetUsersResponse = await axios.get(
-    `${process.env.NEXT_PUBLIC_API}`,
+    `https://api.brstreamers.dev:8000/public/streams`,
     {
       httpsAgent,
     },
