@@ -9,6 +9,8 @@ type GetUsersResponse = {
   data: StreamProp[]
 }
 
+export const revalidate = 60
+
 export default async function Home() {
   const httpsAgent = new https.Agent({
     rejectUnauthorized: false,
