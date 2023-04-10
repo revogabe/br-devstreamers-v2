@@ -45,19 +45,31 @@ export function AccordionSobre() {
             </p>
           </div>
           <div className="flex p-4 gap-3 w-max">
-            <Link href="" className="button-default">
+            <Link
+              href="https://github.com/brdevstreamers/brdevstreamers-ui"
+              className="button-default"
+            >
               Frontend
               <ExternalLinkIcon className="h-4 w-4" />
             </Link>
-            <Link href="" className="button-default">
+            <Link
+              href="https://github.com/brdevstreamers/brdevstreamers"
+              className="button-default"
+            >
               Backend
               <ExternalLinkIcon className="h-4 w-4" />
             </Link>
-            <Link href="" className="button-default">
+            <Link
+              href="https://github.com/brdevstreamers/brdevstreamers-bot"
+              className="button-default"
+            >
               Bot
               <ExternalLinkIcon className="h-4 w-4" />
             </Link>
-            <Link href="" className="button-default">
+            <Link
+              href="https://github.com/brdevstreamers/brdevstreamers-docs"
+              className="button-default"
+            >
               Documentação
               <ExternalLinkIcon className="h-4 w-4" />
             </Link>
