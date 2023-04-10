@@ -48,6 +48,7 @@ export function AccordionSobre() {
             <Link
               href="https://github.com/brdevstreamers/brdevstreamers-ui"
               className="button-default"
+              target="_blank"
             >
               Frontend
               <ExternalLinkIcon className="h-4 w-4" />
@@ -55,6 +56,7 @@ export function AccordionSobre() {
             <Link
               href="https://github.com/brdevstreamers/brdevstreamers"
               className="button-default"
+              target="_blank"
             >
               Backend
               <ExternalLinkIcon className="h-4 w-4" />
@@ -62,6 +64,7 @@ export function AccordionSobre() {
             <Link
               href="https://github.com/brdevstreamers/brdevstreamers-bot"
               className="button-default"
+              target="_blank"
             >
               Bot
               <ExternalLinkIcon className="h-4 w-4" />
@@ -69,6 +72,7 @@ export function AccordionSobre() {
             <Link
               href="https://github.com/brdevstreamers/brdevstreamers-docs"
               className="button-default"
+              target="_blank"
             >
               Documentação
               <ExternalLinkIcon className="h-4 w-4" />
